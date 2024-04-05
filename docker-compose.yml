@@ -72,6 +72,3 @@ services:
       - /dockerdata/immich/postgres:/var/lib/postgresql/data
     restart: always
 
-volumes:
-  pgdata:
-  model-cache:
